@@ -7,8 +7,8 @@
 ### Install
 
 ```bash
-$ git clone 
-$ cd nodejs
+$ git clone https://github.com/PonDad/manatee.git
+$ cd manatee/1_sign_language_digits_classification-master/nodejs/
 $ npm install
 $ npm start
 ```
