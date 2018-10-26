@@ -1,10 +1,10 @@
-## 1.Sign Language Digits Classification
+## TensorFlow.jsで「じゃんけん」を判別してみよう
 
-![screenShot4](https://github.com/PonDad/manatee/blob/master/1_sign_language_digits_classification-master/nodejs/static/img/Screenshot.png)
+![PC-image](https://raw.githubusercontent.com/PonDad/manatee/master/1_sign_language_digits_classification-master/nodejs/static/img/sign-language-digits.gif)
 
-[Demo](https://sign-language-digits-tfjs.herokuapp.com/)
+[Demo: sign-language-digits-tfjs](https://sign-language-digits-tfjs.herokuapp.com/)
 
-### Install
+### インストール
 
 ```bash
 $ git clone https://github.com/PonDad/manatee.git
@@ -13,14 +13,20 @@ $ npm install
 $ npm start
 ```
 
-### Usage
+### 使い方
 
-Open Link　http://localhost:8080/
+リンクを開いてください　http://localhost:8080/
 
-1. Load Model & Camera on(Allow access to webcam)
-2. Predict start(1predict/0.1sec)
-3. If you want stop. Crick clear button and reload.
+![ScreenShot-image](https://raw.githubusercontent.com/PonDad/manatee/master/1_sign_language_digits_classification-master/nodejs/static/img/Screenshot.png)
 
-### Dataset
+1. 「スタート」ボタンで学習済みモデルをTensorFlow.jsをつかって読み込み、Webカメラを起動させます。
+2. 「推論」ボタンでWebカメラの画像をクリップしcanvas要素へと変換します。画像はTensorFlow.jsをつかいテンソル形式へ変換し、学習済みモデルをつかって10クラスの分類をおこないます。
+3. 「推論」は`setInterval()`メソッドをつかって0.1秒ごとに実行します。終了する際は「クリア」ボタンで画面をリロードします。
 
-[Sign Language Digits Dataset - Kaggle](https://www.kaggle.com/ardamavi/sign-language-digits-dataset)
+### データセット
+
+Apacheライセンス2.0で公開されているデータセット [ardamavi/Sign Language Digits Dataset](https://github.com/ardamavi/Sign-Language-Digits-Dataset) を使用しています。
+
+![Digits-image](https://raw.githubusercontent.com/PonDad/manatee/master/1_sign_language_digits_classification-master/nodejs/static/img/digit.png)
+
+トルコのANKARA高校の皆さんで作成したデータセットです。
