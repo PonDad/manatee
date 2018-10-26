@@ -19,11 +19,11 @@ $ npm start
 
 ![ScreenShot-image](https://raw.githubusercontent.com/PonDad/manatee/master/1_sign_language_digits_classification-master/nodejs/static/img/Screenshot.png)
 
-「スタート」ボタンで学習済みモデルをTensorFlow.jsをつかって読み込み、Webカメラを起動させます。
+1. 「スタート」ボタンで学習済みモデルをTensorFlow.jsをつかって読み込み、Webカメラを起動させます。
 
-「推論」ボタンでWebカメラの画像をクリップしcanvas要素へと変換します。画像はTensorFlow.jsをつかいテンソル形式へ変換し、学習済みモデルをつかって10クラスの分類をおこないます。
+2. 「推論」ボタンでWebカメラの画像をクリップしcanvas要素へと変換します。画像はTensorFlow.jsをつかいテンソル形式へ変換し、学習済みモデルをつかって10クラスの分類をおこないます。
 
-「推論」は`setInterval()`メソッドをつかって0.1秒ごとに実行します。終了する際は「クリア」ボタンで画面をリロードします。
+3. 「推論」は`setInterval()`メソッドをつかって0.1秒ごとに実行します。終了する際は「クリア」ボタンで画面をリロードします。
 
 ### データセット
 
