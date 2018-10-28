@@ -64,7 +64,7 @@ history = model.fit_generator(
 model.save('sign_language_vgg16_1.h5')
 
 #convert the vgg16 model into tf.js model
-save_path = '../NODEJS/static/sign_language_vgg16'
+save_path = '../nodejs/static/sign_language_vgg16'
 tfjs.converters.save_keras_model(model, save_path)
 print("[INFO] saved tf.js vgg16 model to disk..")
 
