@@ -14,14 +14,14 @@ img = image.load_img(image_path, grayscale=True , target_size=(64, 64))
 img_array = image.img_to_array(img)
 pImg = np.expand_dims(img_array, axis=0) / 255
 
-model_path = './trained_models/fer2013_mini_XCEPTION.102-0.66.hdf5'
+model_path = './trained_models/fer2013_mini_XCEPTION.107-0.66.hdf5'
 
 emotions_XCEPTION = load_model(model_path, compile=False)
 
 prediction = emotions_XCEPTION.predict(pImg)[0]
 
 #convert the model into tf.js model
-save_path = './emotion_XCEPTION'
+save_path = '../nodejs/static/emotion_XCEPTION'
 tfjs.converters.save_keras_model(emotions_XCEPTION, save_path)
 print("[INFO] saved tf.js emotion model to disk..")
 
