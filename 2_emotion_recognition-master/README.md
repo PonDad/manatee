@@ -29,5 +29,7 @@ $ npm start
 
 Kaggleで公開されているデータセット[Challenges in Representation Learning: Facial Expression Recognition Challenge - Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)を使用します。
 
+![fer2013](https://raw.githubusercontent.com/PonDad/manatee/master/2_emotion_recognition-master/nodejs/static/img/fer2013.png)
+
 Pythonでの学習は[oarriaga/face_classification - GitHub](https://github.com/oarriaga/face_classification)
 ドイツのBonn-Rhein-Sieg応用化学大学の研究グループが公開しているレポジトリを使用します。
