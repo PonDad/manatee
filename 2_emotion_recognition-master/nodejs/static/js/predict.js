@@ -156,15 +156,3 @@ function preprocessImage(image){
 $("#clear-button").click(async function clasify(){
   location.reload();
 });
-
-$("#config-button").click(async function clasify(){
-  $("#faces-container").toggle();
-});
-
-$('[name=video-aspect]').change(function() {
-  var val = $('[name=video-aspect]').val();
-  console.log(val); 
-  originalVideoWidth = val; 
-  var txt = $('[name=video-aspect] option:selected').text();
-  $("#console").html(`<li>video size ` + txt + `</li>`);
-});
