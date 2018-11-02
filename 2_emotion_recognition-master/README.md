@@ -17,7 +17,7 @@ $ npm start
 
 リンクを開いてください　http://localhost:8080/
 
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/PonDad/manatee/master/2_emotion_recognition-master/nodejs/static/img/Screenshot.png)
 
 1. 「スタート」ボタンで学習済みモデルをTensorFlow.jsをつかって読み込み、Webカメラを起動させます。
 
