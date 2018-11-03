@@ -5,7 +5,7 @@ const COLORS =  ({0:'red',1:'green',2:'purple',3:'yellow', 4:'blue',5:'skyblue',
 let originalVideoWidth=640;
 
 let model;
-let emotion= [6,'😐 neutral',1.000000];
+let emotion= [6,CLASSES[6],1.000000];
 let emotionColor;
 
 //-----------------------
@@ -52,10 +52,14 @@ $("#predict-button").click(function (){
   alignment();
 });
 
+//-----------------------
+// face alignment
+//-----------------------
+
 async function alignment(){
 
   tracker.on('track', function(event) {
-    var canvas = document.getElementById('main-stream-canvas');
+    var canvas = $('#main-stream-canvas').get(0);
     var context = canvas.getContext('2d');
 
     context.clearRect(0,0,canvas.width, canvas.height);
@@ -122,9 +126,7 @@ async function predict(rect){
 //------------------------------
 
 function captureWebcam(rect) {
-  var faceCanvas   = document.createElement("canvas");
-  
-  var faceCanvas = document.getElementById('faceCanvas');
+  var faceCanvas = $('#faceCanvas').get(0);
   var faceContext = faceCanvas.getContext('2d');
 
   //adjust original video size
