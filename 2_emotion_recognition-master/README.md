@@ -1,4 +1,4 @@
-## TensorFlow.jsで「感情」を判別してみよう
+## TensorFlow.jsで「感情」を認識してみよう
 
 ![demo](https://raw.githubusercontent.com/PonDad/manatee/master/2_emotion_recognition-master/nodejs/static/img/emotion_demo.gif)
 
