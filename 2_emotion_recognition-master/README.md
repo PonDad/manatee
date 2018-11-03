@@ -1,6 +1,6 @@
 ## TensorFlow.jsで「感情」を判別してみよう
 
-![screenShot]()
+![demo](https://raw.githubusercontent.com/PonDad/manatee/master/2_emotion_recognition-master/nodejs/static/img/emotion_demo.gif)
 
 [Demo](https://emotion-recognition-tfjs.herokuapp.com/)
 
