@@ -8,6 +8,6 @@
 
 [Demo](https://dashboard.heroku.com/apps/sign-language-digits-tfjs)
 
-第17回 TensorFlow.jsで「感情」を認識してみよう
+## 第17回 TensorFlow.jsで「感情」を認識してみよう
 
 (Comming Soon)
