@@ -8,7 +8,7 @@ https://book.mynavi.jp/manatee/detail/id=99768
 
 [Repository](https://github.com/PonDad/manatee/tree/master/1_sign_language_digits_classification-master)
 
-[Demo](https://dashboard.heroku.com/apps/sign-language-digits-tfjs)
+[Demo](https://sign-language-digits-tfjs.herokuapp.com/)
 
 ## 第17回 TensorFlow.jsで「感情」を認識してみよう
 
