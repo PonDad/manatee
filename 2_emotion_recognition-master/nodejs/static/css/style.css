@@ -18,6 +18,12 @@ html,body{
 	margin: 20px 0;
 }
 
+.container-c{
+	 width: 100%;
+	 height: 100px;
+	 background-color: gray
+}
+
 .btn-group{
 	margin-right: 10px;
 }
@@ -54,4 +60,43 @@ footer{
 #faceCanvas{
   margin: 0 20px 0 0;
   background-color:#555;
+}
+
+.color-emotion-table {
+	text-align: center;
+}
+
+.color-emotion-table th, .color-emotion-table td {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.color > td > span{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.red {
+	background-color: red
+	
+}
+.green {
+	background-color:green
+}
+.purple {
+	background-color: purple
+}
+.yellow {
+	background-color: yellow
+}
+.blue {
+	background-color: blue
+}
+.skyblue {
+	background-color: skyblue
+}
+.white {
+	background-color: white
 }

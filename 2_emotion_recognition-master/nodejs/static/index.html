@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>Emotion recognition with TensorFlow.js</title>
@@ -7,6 +8,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 	<article id="article">
 		<h1 class="text-center" id="title">😄😠😢 Emotion recognition<br><small>with TensorFlow.js</small></h1>
@@ -33,6 +35,47 @@
 		</div>
 
 		<div class="container-b">
+
+			<table class="color-emotion-table" border="1">
+				<tr></tr>
+				<tr>
+					<th></th>
+					<th>0</th>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					<th>4</th>
+					<th>5</th>
+					<th>6</th>
+				</tr>
+				<tr>
+					<td><b>感情</b></td>
+					<td>😠 angry</td>
+					<td>😬 disgust</td>
+					<td>😨 fear</td>
+					<td>😄 happy</td>
+					<td>😢 sad</td>
+					<td>😮 surprise</td>
+					<td>😐 neutral</td>
+				</tr>
+				<tr class="color">
+					<td><b>色</b></td>
+					<td><span class="red"></span>red</td>
+					<td><span class="green"></span>green</td>
+					<td><span class="purple"></span>purple</td>
+					<td><span class="yellow"></span>yellow</td>
+					<td><span class="blue"></span>blue</td>
+					<td><span class="skyblue"></span>skyblue</td>
+					<td><span class="white"></span>white</td>
+
+				</tr>
+				<tr></tr>
+				<tr></tr>
+			</table>
+
+		</div>
+
+		<div class="container-b">
 			<div id="faces-container">
 				<canvas height="100" id="faceCanvas" width="100"></canvas>
 			</div>
@@ -45,17 +88,23 @@
 				</ul>
 			</div>
 		</div>
-				
+
+
+	</article>
+	<article>
+		<div class="container-c">
+		</div>
 	</article>
 	<footer class="text-center">
 		<small>&#169; 2018 Studio Identical Twins All Rights Reserved.</small>
 	</footer>
-	<script src="js/jquery.min.js"></script> 
-	<script src="js/tensorflow.min.js"></script> 
-	<script src="tracking/build/tracking-min.js"></script> 
-	<script src="tracking/build/data/face-min.js"></script> 
-	<script src="tracking/src/alignment/training/Landmarks.js"></script> 
-	<script src="tracking/src/alignment/training/Regressor.js"></script> 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tensorflow.min.js"></script>
+	<script src="tracking/build/tracking-min.js"></script>
+	<script src="tracking/build/data/face-min.js"></script>
+	<script src="tracking/src/alignment/training/Landmarks.js"></script>
+	<script src="tracking/src/alignment/training/Regressor.js"></script>
 	<script src="js/predict.js"></script>
 </body>
+
 </html>
